@@ -21,8 +21,8 @@ fun main(args : Array<String>) {
     baseValue = addToBaseValue(5)
 
     println("""Look at my sums :
-        - Sum Value: $sumValue,
-        - Incremented Value : $baseValue
+        - 4 + 5 = $sumValue,
+        - 0 + 5 + 1 = ${baseValue.inc()}
     """)
 }
 

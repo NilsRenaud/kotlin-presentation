@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e7440bb-40e3-4ab3-b544-f9616dabe283" name="Default" comment="" />
+    <list default="true" id="9e7440bb-40e3-4ab3-b544-f9616dabe283" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/src/org/nilsr/kotlin/examples/0basicThings.kt" afterPath="$PROJECT_DIR$/examples/src/org/nilsr/kotlin/examples/0basicThings.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/src/org/nilsr/kotlin/examples/1flowControl.kt" afterPath="$PROJECT_DIR$/examples/src/org/nilsr/kotlin/examples/1flowControl.kt" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +17,8 @@
       <file leaf-file-name="0basicThings.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/src/org/nilsr/kotlin/examples/0basicThings.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+            <state relative-caret-position="83">
+              <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -24,8 +27,8 @@
       <file leaf-file-name="1flowControl.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/src/org/nilsr/kotlin/examples/1flowControl.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -332,16 +335,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/src/org/nilsr/kotlin/examples/1flowControl.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/src/org/nilsr/kotlin/examples/0basicThings.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        <state relative-caret-position="83">
+          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding />
         </state>
       </provider>
