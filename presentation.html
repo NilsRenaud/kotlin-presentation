@@ -1,0 +1,148 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="css/reveal.css" />
+		<link rel="stylesheet" href="css/theme/league.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/headjs/0.96/head.min.js"></script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>Kotlin</h1>
+					<h3>Intro &amp; example</h3>
+					<img src="img/Kotlin-logo.png" style="height:200px; width : 200px; border:0px; background-color:transparent;"/>
+				</section>
+				<section>
+					<ul>
+						<li>What is Kotlin ?</li>
+						<li>Why Kotlin ?</li>
+						<li>Deep dive in the syntax !</li>
+						<li>What's next ?</li>
+					</ul>
+				</section>
+				<section>
+					<section>
+						<h3>What's Kotlin ?</h3>
+					</section>
+					<section>
+						<h3>Basics</h3>
+						<ul>
+							<li><b>Functional</b> &amp; <b>Object Oriented</b> Programmation language</li>
+							<li>Strong typing</li>
+							<li>Created in 2011, 1st stable release in 2016</li>
+							<li>By Jetbrain (Intellij)</li>
+							<li>Works on top of the JVM</li>
+							<li>... but also the Javascript VM</li>
+							<li>Inspired from Java, Scala, Groovy, C#...</li>
+							<li>Google I/O 2017 : officially announced a first class support on Android</li>
+						</ul>
+						<aside class="notes">
+							the others First class citizen on Android are C++ and Java.
+						</aside>
+					</section>
+					<section>
+						<h3>History</h3>
+						<ul>
+							<li>They really liked Scala...</li>
+							<li>... but it had way tooooo long compile time !</li>
+							<li>So they decided to build a new language which had : 
+								<ul>
+									<li>an Industrial-strength OO language</li>
+									<li>"better language" than Java</li>
+									<li>fully interoperable with Java Code</li>
+								</ul>
+							</li>
+							<li>Kotlin is an island near St-Petersbourg</li>
+						</ul>
+						<aside class="notes">
+							Fully operable allow a step by step migration !
+						</aside>
+					</section>
+					<section>
+						<h3>How to use it ?</h3>
+						<ul>
+							<li>Have a JDK6+ installed / JS Interpreter</li>
+							<li>Write your code in Intellij/Eclipse/Android Studio/Emacs</li>
+							<li>Compile it with Gradle/Maven/Ant using Kotlin plugins</li>
+							<li>That's it !</li>
+						</ul>
+					</section>
+					<section>
+						<h3>Adoption</h3>
+						<ul>
+							<li>Backend : AWS, Pinterest, Coursera, Netflix, Uber, Trello...</li>
+							<li>Android : Expedia, Flipboard, Pinterest, Square...</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h3>Why Kotlin ?</h3>
+					</section>
+					<section>
+						<h3>"Better than java" they said...</h3>
+						<ul>
+							<li><b>NO MORE ";"</b></li>
+							<li>Safe</li>
+							<li>Consice</li>
+							<li>Extension Functions</li>
+							<li>lambda included (Android is stuck on Java7)</li>
+							<li>Fantastic standard library</li>
+							<li>Mature</li>
+							<li>... Fun...</li>
+						</ul>
+						<aside class="notes">
+							Safe : No more NPE, Enforced Immutability
+							Concise : Sata classe as One liner, Type Inference, String Template
+						</aside>
+					</section>
+					<section>
+						<h3>Functional Programming</h3>
+						<ul>
+							<li>Avoid mutable data / Changing state</li>
+							<li>Say <b>what</b> you want to do, not <b>how</b></li>
+							<li>The result of a function depends only of its args</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h3>Deep dive in the syntax !</h3>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h3>The (soon) end.</h3>
+					</section>
+					<section>
+						<h3>Future ?</h3>
+						<ul>
+							<li>Native compilation using LLVM</li>
+							<li>NEW : Spring is kotlin friendly</li>
+							<li>Gradle is migrating from Groovy to kotlin</li>
+							<li>Java 9 support</li>
+							<li>Increasing ecosystem/community size !</li>
+						</ul>
+					</section>
+					<section>
+						<a href="http://try.kotlinlang.org/" target="_blank">try.kotlinlang.org</a>
+					</section>
+				</section>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/reveal.js"></script>
+		<script type="text/javascript">
+			Reveal.initialize({
+		    dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/math/math.js', async: true }
+		    ]
+			});
+		</script>
+	</body>
+</html>
