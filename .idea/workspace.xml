@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e7440bb-40e3-4ab3-b544-f9616dabe283" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/src/org/nilsr/kotlin/examples/0basicThings.kt" afterPath="$PROJECT_DIR$/examples/src/org/nilsr/kotlin/examples/0basicThings.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/src/org/nilsr/kotlin/examples/1flowControl.kt" afterPath="$PROJECT_DIR$/examples/src/org/nilsr/kotlin/examples/1flowControl.kt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,11 +14,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="1flowControl.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="1flowControl.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/src/org/nilsr/kotlin/examples/1flowControl.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="188">
+              <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3OverrideAndInheritance.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/src/org/nilsr/kotlin/examples/3OverrideAndInheritance.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2Classes.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/src/org/nilsr/kotlin/examples/2Classes.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-865">
+              <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="5Functions.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/examples/src/org/nilsr/kotlin/examples/5Functions.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="4Objects.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/src/org/nilsr/kotlin/examples/4Objects.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -32,6 +73,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>random</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -44,8 +90,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/examples/src/org/nilsr/kotlin/examples/basicThings.kt" />
-        <option value="$PROJECT_DIR$/examples/src/org/nilsr/kotlin/examples/0basicThings.kt" />
         <option value="$PROJECT_DIR$/examples/src/org/nilsr/kotlin/examples/1flowControl.kt" />
+        <option value="$PROJECT_DIR$/examples/src/org/nilsr/kotlin/examples/2Objects.kt" />
+        <option value="/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/lang/Math.class" />
+        <option value="$PROJECT_DIR$/examples/src/org/nilsr/kotlin/examples/0basicThings.kt" />
+        <option value="$PROJECT_DIR$/examples/src/org/nilsr/kotlin/examples/3MoreClasses.kt" />
+        <option value="$PROJECT_DIR$/examples/src/org/nilsr/kotlin/examples/3OverrideAndInheritance.kt" />
+        <option value="$PROJECT_DIR$/examples/src/org/nilsr/kotlin/examples/4Objects.kt" />
+        <option value="$PROJECT_DIR$/examples/src/org/nilsr/kotlin/examples/2Classes.kt" />
+        <option value="$PROJECT_DIR$/examples/src/org/nilsr/kotlin/examples/5Functions.kt" />
       </list>
     </option>
   </component>
@@ -138,7 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.org.nilsr.kotlin.examples._1flowControlKt">
+  <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -243,14 +296,28 @@
       <module name="examples" />
       <envs />
     </configuration>
-    <list size="2">
+    <configuration name="org.nilsr.kotlin.examples._3OverrideAndInheritanceKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="org.nilsr.kotlin.examples._3OverrideAndInheritanceKt" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="examples" />
+      <envs />
+    </configuration>
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Kotlin.org.nilsr.kotlin.examples._0basicThingsKt" />
       <item index="1" class="java.lang.String" itemvalue="Kotlin.org.nilsr.kotlin.examples._1flowControlKt" />
+      <item index="2" class="java.lang.String" itemvalue="Kotlin.org.nilsr.kotlin.examples._3OverrideAndInheritanceKt" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.org.nilsr.kotlin.examples._1flowControlKt" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Kotlin.org.nilsr.kotlin.examples._3OverrideAndInheritanceKt" />
         <item index="1" class="java.lang.String" itemvalue="Kotlin.org.nilsr.kotlin.examples._0basicThingsKt" />
+        <item index="2" class="java.lang.String" itemvalue="Kotlin.org.nilsr.kotlin.examples._1flowControlKt" />
       </list>
     </recent_temporary>
   </component>
@@ -339,18 +406,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/src/org/nilsr/kotlin/examples/0basicThings.kt">
+    <entry file="file://$PROJECT_DIR$/examples/src/org/nilsr/kotlin/examples/1flowControl.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21">
-          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        <state relative-caret-position="188">
+          <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/src/org/nilsr/kotlin/examples/1flowControl.kt">
+    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/lang/Math.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        <state relative-caret-position="88">
+          <caret line="552" column="37" lean-forward="false" selection-start-line="552" selection-start-column="31" selection-end-line="552" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/src/org/nilsr/kotlin/examples/0basicThings.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/src/org/nilsr/kotlin/examples/3OverrideAndInheritance.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/src/org/nilsr/kotlin/examples/4Objects.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/src/org/nilsr/kotlin/examples/2Classes.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-865">
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/src/org/nilsr/kotlin/examples/5Functions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
           <folding />
         </state>
       </provider>

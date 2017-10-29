@@ -13,6 +13,7 @@ package org.nilsr.kotlin.examples
  * - Multiline function declaration using "="
  * - Using intervals
  * - One liner If/else expression
+ * - the "it" default variable in lambda
  */
 fun main(args : Array<String>) {
     greaterOrException(1, 2)
@@ -47,6 +48,10 @@ fun loopOverAListUsingDifferentStyles(items : List<*>){
 
     // Using Built in List method
     items.forEach { item -> println("built in loop : $item")}
+
+    // Shorter !
+    items.forEach { println("shorter built in loop : $it")}
+
 }
 
 fun describeUsingWhen(obj : Any) : String =
