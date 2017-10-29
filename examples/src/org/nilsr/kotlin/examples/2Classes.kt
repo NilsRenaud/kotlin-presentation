@@ -8,6 +8,7 @@ import javax.naming.OperationNotSupportedException
  * - Data class fields definition using var/val
  * - Data class auto generated methods
  * - Operator overloads
+ * - Destructuring declaration
  * - Data class components auto-definition
  * - Class definition
  * - Constructor definition
@@ -16,6 +17,7 @@ import javax.naming.OperationNotSupportedException
  * - Specific getters and setters
  * - Lazy evaluation
  * - Enums
+ * - Java interoperability
  */
 fun main(args : Array<String>) {
     val rect = Rectangle(1, 2)
@@ -28,8 +30,8 @@ fun main(args : Array<String>) {
 
     val rectMut = MutableRectangle(1, 2)
     rectMut.length = 4
-
-    println("${rectMut.component1()}, ${rectMut.component2()}")
+    val (width, length) = rectMut
+    println("${rectMut.component1()} = $width, ${rectMut.component2()} = $length")
 
     // Example of an empty class instantiation
     val empty = Empty()

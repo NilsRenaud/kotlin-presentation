@@ -1,6 +1,5 @@
 package org.nilsr.kotlin.examples
 
-import java.util.*
 
 /**
  * Shows :
