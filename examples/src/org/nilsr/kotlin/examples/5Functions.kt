@@ -7,6 +7,7 @@ import java.util.*
  * - Infixe notation usage
  * - Inline keyword
  * - lambda usage examples
+ * - special case when lambda is the last parameter of a function
  */
 fun main(args : Array<String>) {
 
@@ -15,6 +16,7 @@ fun main(args : Array<String>) {
     myPrintLn(goToZeroOrOne(1520))
 
     myPrintLn(applyFunction(1, {x -> x+3}))
+    myPrintLn(applyFunction(1) {x -> x+3})
 
     val mySum = {x : Int, y : Int -> x + y}
     println(mySum(3, 4))
@@ -25,6 +27,7 @@ fun main(args : Array<String>) {
                     .map { it.length }
                     .filter { it > 3 })
 }
+
 
 fun applyFunction(value : Int, functionToCall : (Int)-> Int) : Int{
     println("I call this function")
